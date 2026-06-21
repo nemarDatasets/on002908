@@ -1,0 +1,46 @@
+{
+  "version": "2.0",
+  "dataset_id": "on002908",
+  "source": "openneuro",
+  "source_id": "ds002908",
+  "title": "Human MEG recordings during sequential conflict task",
+  "authors": {
+    "Rafal Bogacz": {},
+    "Vladimir Litvak": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds002908.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.1",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "MC_UU_12024/5"
+    },
+    {
+      "funder_name": "MC_UU_00003/1"
+    },
+    {
+      "funder_name": "BB/S006338/1"
+    },
+    {
+      "funder_name": "203147/Z/16/Z"
+    },
+    {
+      "funder_name": "MR/K005464/1"
+    }
+  ],
+  "acknowledgements": "We thank Dr. Ashwini Oswal, Dr. Simon Little, Dr. David Pedrosa, Dr. Damian Herz and Dr.Viswas Dayal for clinical support of patient recordings, as well as the patients and their families."
+}
