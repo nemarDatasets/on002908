@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Human MEG recordings during sequential conflict task",
-  "description": "This dataset comprises human magnetoencephalography (MEG) recordings acquired during a sequential conflict task, designed to investigate neural mechanisms of conflict detection and decision-making. The recordings include data from both healthy controls and patients with movement disorders, enabling investigation of cortico-subthalamic interactions and oscillatory dynamics in the beta frequency band during cognitive conflict processing.",
+  "description": "This magnetoencephalography (MEG) dataset comprises human recordings during a sequential conflict task, designed to investigate neural mechanisms of conflict detection and decision-making. The dataset includes recordings from both healthy controls and patients with movement disorders, enabling investigation of cortico-subthalamic interactions and oscillatory dynamics in the beta frequency band during cognitive conflict processing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -91,6 +91,6 @@
     ".res4",
     ".yml"
   ],
-  "methods_description": "MEG recordings were acquired during a sequential decision task. The dataset includes recordings from healthy human subjects and clinical patients, with ethics approval from the University College London Ethics Committee for magnetoencephalography studies of human cognition.",
+  "methods_description": "Human MEG recordings were acquired during a sequential conflict task. The study involved both healthy human subjects and clinical patients, with recordings conducted under ethics approval from the University College London Ethics Committee for magnetoencephalography studies of human cognition.",
   "source_hash": "0f69d754f7c88d28d2055833e27f4656e627f11e37cdaad14a72c2b623ca74fd"
 }
