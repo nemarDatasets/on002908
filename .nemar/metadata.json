@@ -1,19 +1,35 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Human MEG recordings during sequential conflict task",
+  "description": "This dataset comprises human magnetoencephalography (MEG) recordings acquired during a sequential conflict task, designed to investigate neural mechanisms of conflict detection and decision-making. The recordings include data from both healthy controls and patients with movement disorders, enabling investigation of cortico-subthalamic interactions and oscillatory dynamics in the beta frequency band during cognitive conflict processing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Rafal Bogacz": {},
     "Vladimir Litvak": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds002908.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "conflict detection"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "beta oscillations"
+    },
+    {
+      "term": "cortico-subthalamic coherence"
+    },
+    {
+      "term": "sequential task"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on002908",
       "identifier_type": "URL",
@@ -23,6 +39,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002908",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002908.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -47,12 +68,12 @@
       "award_number": "MR/K005464/1"
     }
   ],
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "62.6 GB (328 files)"
   ],
   "formats": [
     ".acq",
@@ -67,34 +88,9 @@
     ".meg4",
     ".mrk",
     ".newds",
-    ".res4"
+    ".res4",
+    ".yml"
   ],
-  "description": "This dataset comprises magnetoencephalography (MEG) recordings from human subjects performing a sequential conflict task. The study investigates the neural mechanisms of conflict detection, with particular focus on cortico-subthalamic interactions and beta-band oscillatory dynamics. Recordings include both healthy controls and Parkinson's disease patients, enabling examination of how conflict processing is modulated across different neurological conditions. This dataset is mirrored on NEMAR from the OpenNeuro repository (ds002908).",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "conflict detection"
-    },
-    {
-      "term": "beta oscillations"
-    },
-    {
-      "term": "cortico-subthalamic coherence"
-    },
-    {
-      "term": "sequential decision making"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "Stroop task"
-    },
-    {
-      "term": "Parkinson's disease"
-    }
-  ],
-  "source_hash": "80acc7385f51e30fc5dcb34038149f0e253ee3225532980a10942e64a73878c5"
+  "methods_description": "MEG recordings were acquired during a sequential decision task. The dataset includes recordings from healthy human subjects and clinical patients, with ethics approval from the University College London Ethics Committee for magnetoencephalography studies of human cognition.",
+  "source_hash": "0f69d754f7c88d28d2055833e27f4656e627f11e37cdaad14a72c2b623ca74fd"
 }
