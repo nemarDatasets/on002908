@@ -1,46 +1,100 @@
 {
   "version": "2.0",
-  "dataset_id": "on002908",
-  "source": "openneuro",
-  "source_id": "ds002908",
+  "pipeline_stage": "enriched",
   "title": "Human MEG recordings during sequential conflict task",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Rafal Bogacz": {},
     "Vladimir Litvak": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002908.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on002908",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002908",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.1",
-  "recording_modality": [
-    "meg"
-  ],
-  "datatypes": [
-    "meg"
   ],
   "funding_references": [
     {
-      "funder_name": "MC_UU_12024/5"
+      "funder_name": "Medical Research Council",
+      "award_number": "MC_UU_12024/5"
     },
     {
-      "funder_name": "MC_UU_00003/1"
+      "funder_name": "Medical Research Council",
+      "award_number": "MC_UU_00003/1"
     },
     {
-      "funder_name": "BB/S006338/1"
+      "funder_name": "Biotechnology and Biological Sciences Research Council",
+      "award_number": "BB/S006338/1"
     },
     {
-      "funder_name": "203147/Z/16/Z"
+      "funder_name": "Wellcome Trust",
+      "award_number": "203147/Z/16/Z"
     },
     {
-      "funder_name": "MR/K005464/1"
+      "funder_name": "Medical Research Council",
+      "award_number": "MR/K005464/1"
     }
   ],
-  "acknowledgements": "We thank Dr. Ashwini Oswal, Dr. Simon Little, Dr. David Pedrosa, Dr. Damian Herz and Dr.Viswas Dayal for clinical support of patient recordings, as well as the patients and their families."
+  "modalities": [
+    "meg"
+  ],
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".acq",
+    ".cfg",
+    ".cls",
+    ".gitattributes",
+    ".hc",
+    ".hist",
+    ".infods",
+    ".json",
+    ".md",
+    ".meg4",
+    ".mrk",
+    ".newds",
+    ".res4"
+  ],
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings from human subjects performing a sequential conflict task. The study investigates the neural mechanisms of conflict detection, with particular focus on cortico-subthalamic interactions and beta-band oscillatory dynamics. Recordings include both healthy controls and Parkinson's disease patients, enabling examination of how conflict processing is modulated across different neurological conditions. This dataset is mirrored on NEMAR from the OpenNeuro repository (ds002908).",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "conflict detection"
+    },
+    {
+      "term": "beta oscillations"
+    },
+    {
+      "term": "cortico-subthalamic coherence"
+    },
+    {
+      "term": "sequential decision making"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "Stroop task"
+    },
+    {
+      "term": "Parkinson's disease"
+    }
+  ],
+  "source_hash": "80acc7385f51e30fc5dcb34038149f0e253ee3225532980a10942e64a73878c5"
 }
