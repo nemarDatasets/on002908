@@ -2,7 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Human MEG recordings during sequential conflict task",
-  "description": "This magnetoencephalography (MEG) dataset comprises human recordings during a sequential conflict task, designed to investigate neural mechanisms of conflict detection and decision-making. The dataset includes recordings from both healthy controls and patients with movement disorders, enabling investigation of cortico-subthalamic interactions and oscillatory dynamics in the beta frequency band during cognitive conflict processing.",
+  "description": "Magnetoencephalography (MEG) recordings acquired during a sequential conflict decision task. The data accompany a study of conflict detection, examining cortico-subthalamic coherence and the subthalamic beta-band oscillatory response, including recordings from patients. The dataset is mirrored on NEMAR from OpenNeuro (ds002908).",
+  "methods_description": "Human MEG recordings were acquired during a sequential conflict task. The study involved both healthy human subjects and clinical patients, with recordings conducted under ethics approval from the University College London Ethics Committee for magnetoencephalography studies of human cognition.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,19 +15,24 @@
       "term": "MEG"
     },
     {
+      "term": "magnetoencephalography"
+    },
+    {
+      "term": "decision making"
+    },
+    {
       "term": "conflict detection"
     },
     {
-      "term": "decision-making"
+      "term": "subthalamic nucleus"
     },
     {
       "term": "beta oscillations"
     },
     {
-      "term": "cortico-subthalamic coherence"
-    },
-    {
-      "term": "sequential task"
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     }
   ],
   "related_identifiers": [
@@ -36,14 +42,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002908",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds002908.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on002908",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -56,7 +62,7 @@
       "award_number": "MC_UU_00003/1"
     },
     {
-      "funder_name": "Biotechnology and Biological Sciences Research Council",
+      "funder_name": "BBSRC",
       "award_number": "BB/S006338/1"
     },
     {
@@ -73,7 +79,7 @@
     "meg"
   ],
   "sizes": [
-    "62.6 GB (328 files)"
+    "58.28 GB (328 files)"
   ],
   "formats": [
     ".acq",
@@ -89,8 +95,8 @@
     ".mrk",
     ".newds",
     ".res4",
+    ".tsv",
     ".yml"
   ],
-  "methods_description": "Human MEG recordings were acquired during a sequential conflict task. The study involved both healthy human subjects and clinical patients, with recordings conducted under ethics approval from the University College London Ethics Committee for magnetoencephalography studies of human cognition.",
   "source_hash": "0f69d754f7c88d28d2055833e27f4656e627f11e37cdaad14a72c2b623ca74fd"
 }
